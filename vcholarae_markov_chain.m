@@ -1,4 +1,4 @@
-fid= fopen('C:\Users\thiag\PycharmProjects\Bioinformatics\Bioinformatics\Week_1\vibrio_colerae.txt.txt','r');
+fid= fopen('vibrio_cholerae.txt','r');
 % vibrio colarae GENOME OR INSERT ANY OF YOUR CHOICE
 genome= textscan(fid,'%s');
 fclose(fid);
